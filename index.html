@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="HandheldFriendly" content="true" />
+		<meta name="viewport" content="width=device-width,height=device-height,user-scalable=no" />
+		<title>Thermostat</title>
+		<script src="//code.jquery.com/jquery-2.1.0.min.js"></script>
+		<script src="script.js"></script>
+		<link rel="stylesheet" href="style.css" />
+		<link rel="stylesheet" type="text/css" href="handheld.css" media="handheld" />
+
+	</head>
+	<body>
+		<div class="advanced-features-prompt" title="Check this box to show advanced settings and diagnostics." >
+			<input type="checkbox" id="show-advanced-features" checked="checked" />
+			<label for="show-advanced-features">Advanced Settings</label>
+		</div>
+
+		<div class="thermostat-ui">
+			<div class="temperature-set">
+
+				<div class="temperature-set-wrapper">
+					<button class="temp-dn">-</button>
+					<span class="temp-readout">??&#8457;</span>
+					<input type="number" class="ideal-temp" value="" min="40" max="90" step="1" />
+					<button class="temp-up">+</button>
+				</div>
+			</div>
+			
+			<dfn class="current-temp">
+				<dt >Current Temperature</dt>
+				<dd >75</dd>
+			</dfn>
+
+			<dfn class="fan-status">
+				<dt>Fan</dt>
+				<dd>?</dd>
+			</dfn>
+
+			<dfn class="comp-status">	
+				<dt>Cool</dt>
+				<dd>?</dd>
+			</dfn>
+
+			<dfn class="coil-temp advanced">	
+				<dt>Coil Temp</dt>
+				<dd>?</dd>
+			</dfn>
+
+			<dfn title="If the A/C coil gets below this temperature, the compressor will turn off, to prevent freezing." class="coil-cutoff-temp advanced">	
+				<dt>Min Coil Temp</dt>
+				<dd>?</dd>
+			</dfn>
+
+
+			<dfn class="heat-status">	
+				<dt>Heat</dt>
+				<dd>?</dd>
+			</dfn>
+
+			<dfn class="latency advanced">
+				<dt>Latency</dt>
+				<dd>?</dd>
+			</dfn>
+
+		</div>
+	</body>
+</html>

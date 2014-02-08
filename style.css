@@ -1,0 +1,120 @@
+
+body, html {margin: 0px; padding: 0px; font-family: 'sans-serif'; width: 100%; min-height: 100%;}
+
+body { padding-top: 2%; text-shadow: 1px 1px 0px white; background: #267BD6; background-size: 100%  auto; }
+body { font-size: 150% !important; }
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+a {
+	color: black;
+	text-decoration: underline;
+	font-weight: lighter;
+}
+.advanced-features-prompt {
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	background: #000;
+	color: #FFF;
+	text-align: center;
+}
+
+.advanced-features-prompt a {
+margin: 3px 0;
+	text-decoration: none;
+	color: white;
+	text-shadow: 1px 1px black;
+}
+
+.advanced-features-prompt a:hover{ 
+	text-decoration: underline;
+}
+dfn {
+	display: block;
+	background:rgba(216, 216, 216, 0.76);
+	border-radius: 6px;
+	box-shadow: 1px 1px 2px black;
+	border-bottom: 1px solid rgba(255,255,255,.58);
+	text-align: center;
+	font-style: normal;
+	margin: .33% 1%;
+	padding: .33% 2%;
+}
+
+dd,dt {display: inline-block;}
+.temperature-set {
+text-align: center;
+}
+.temperature-set button {
+	text-align: center;
+	font-size: 200%;
+	font-weight: bold;
+	min-height: 2em;
+	min-width: 2em;
+	border: 1px solid rgba(255, 255, 255, 0.36);
+vertical-align: middle;
+	text-shadow: 1px 1px 0px #FFF;
+	box-shadow: 3px 3px 9px -3px #000;
+
+}
+.temp-dn {
+	background: #00b7ea;
+background: -moz-linear-gradient(top,  #00b7ea 0%, #009ec3 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#00b7ea), color-stop(100%,#009ec3));
+background: -webkit-linear-gradient(top,  #00b7ea 0%,#009ec3 100%);
+background: -o-linear-gradient(top,  #00b7ea 0%,#009ec3 100%);
+background: -ms-linear-gradient(top,  #00b7ea 0%,#009ec3 100%);
+background: linear-gradient(to bottom,  #00b7ea 0%,#009ec3 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00b7ea', endColorstr='#009ec3',GradientType=0 );
+	border-top-left-radius: 1em;
+	border-bottom-left-radius: 1em;
+
+}
+
+.temp-up {
+
+	
+	border-top-right-radius: 1em;
+	border-bottom-right-radius: 1em;
+
+	background: #ea6900;
+background: -moz-linear-gradient(top,  #ea6900 0%, #c45200 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ea6900), color-stop(100%,#c45200));
+background: -webkit-linear-gradient(top,  #ea6900 0%,#c45200 100%);
+background: -o-linear-gradient(top,  #ea6900 0%,#c45200 100%);
+background: -ms-linear-gradient(top,  #ea6900 0%,#c45200 100%);
+background: linear-gradient(to bottom,  #ea6900 0%,#c45200 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ea6900', endColorstr='#c45200',GradientType=0 );
+
+}
+
+.temperature-set-wrapper {
+	-webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+display: inline-block;
+background: rgba(189, 189, 189, 0.23);
+border-radius: 2em;
+box-shadow: inset 0 3px 12px 3px rgba(0, 0, 0, 0.53);
+}
+.temp-readout {
+font-size: 175%;
+font-weight: bold;
+font-style: inherit;
+vertical-align: middle;
+}
+
+.status-is-0 {
+	font-weight: lighter;
+}
+.status-is-1 {
+	font-weight: bold;
+}
